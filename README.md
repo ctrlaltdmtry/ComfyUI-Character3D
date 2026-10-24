@@ -4,7 +4,7 @@
 
 **Version 0.5.1** · Local WebGL2 editor · RU / EN interface · Immutable PNG snapshots
 
-Create and pose adult 3D characters inside ComfyUI, then freeze the rendered composition into an `IMAGE` and foreground `MASK`. The editor uses bundled MakeHuman/MPFB graphical assets and Three.js; using it does not require Blender, a diffusion model, a CDN or an external API.
+Create and pose 3D characters inside ComfyUI, then freeze the rendered composition into an `IMAGE` and foreground `MASK`. The editor uses bundled MakeHuman/MPFB graphical assets and Three.js; using it does not require Blender, a diffusion model, a CDN or an external API.
 
 ## Features
 
