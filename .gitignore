@@ -1,0 +1,38 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+
+# Agent state and editors
+.hermes/
+.claude/
+.cursor/
+.idea/
+.vscode/
+
+# Python / JavaScript caches and environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+node_modules/
+
+# Local QA, machine-bound deployment evidence and generated artifacts
+tests/performance/
+*.log
+dist/
+experiments/
+backups/
+input/
+output/
+*.pending
+
+# OS metadata
+.DS_Store
+Thumbs.db

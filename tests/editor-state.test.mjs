@@ -1,0 +1,11 @@
+import assert from 'node:assert/strict';import vm from 'node:vm';
+import {defaults,normalizeState,normalizeEditorState,stableState,envelope} from '../web/state.js';
+const view={position:[0,1,10],target:[0,1,0],height:4,zoom:1};
+const editor={schema:'character-3d-editor/1',cameraMode:false,viewport:view};
+const a=normalizeEditorState(vm.runInNewContext('('+JSON.stringify(editor)+')'));assert.deepEqual(a,editor);assert.equal(Object.getPrototypeOf(a.viewport.position),Array.prototype);
+assert.throws(()=>normalizeEditorState({...editor,cameraMode:1}));assert.throws(()=>normalizeEditorState({...editor,viewport:{...view,height:0}}));assert.throws(()=>normalizeEditorState({...editor,viewport:{...view,position:[0,NaN,0]}}));
+const state={...defaults(),camera:view,canvas:{width:512,height:768,background:'#333e4a'}};assert.deepEqual(normalizeState(state),state);assert.throws(()=>normalizeState({...state,canvas:{...state.canvas,width:true}}));
+const legacy={...defaults(),camera:view};assert.deepEqual(normalizeState(legacy),legacy);assert.ok(!Object.hasOwn(normalizeState(legacy),'canvas'));
+const key=stableState(state),frozen=envelope(state,'a'.repeat(64));a.viewport.position[0]=100;a.cameraMode=true;assert.equal(stableState(state),key);assert.deepEqual(frozen.state,state);assert.ok(!Object.hasOwn(frozen.state,'editor'));
+const rigEditor={...editor,rigLayers:{bones:true,joints:false,controllers:true,body:true,hands:false,face:true,xray:false},jointPicking:true,selectedJoint:'jaw'};assert.deepEqual(normalizeEditorState(rigEditor),rigEditor);assert.ok(!Object.hasOwn(normalizeEditorState(editor),'rigLayers'));for(const bad of [{rigLayers:[]},{rigLayers:{bones:1}},{rigLayers:{alien:true}},{jointPicking:1},{selectedJoint:4},{selectedJoint:'x'.repeat(129)},{selectedJoint:'a\u0000'}])assert.throws(()=>normalizeEditorState({...editor,...bad}));assert.equal(stableState(state),key);assert.deepEqual(frozen.state,state);
+console.log('PASS state: optional bounded canvas/rig/picking metadata, output independence, destination-realm vectors, legacy preservation.');

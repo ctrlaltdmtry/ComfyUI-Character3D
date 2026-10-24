@@ -1,0 +1,6 @@
+# These dependencies are normally already supplied by ComfyUI.
+# No browser, renderer, MakeHuman, or image-generation runtime is required.
+numpy>=1.24
+Pillow>=10.0
+torch>=2.0
+aiohttp>=3.9

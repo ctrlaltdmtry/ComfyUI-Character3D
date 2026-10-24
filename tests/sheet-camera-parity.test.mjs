@@ -1,0 +1,3 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {validateSheetCamera} from '../web/sheet-state.js';
+const camera={position:[0,1,20],target:[0,1,0],zoom:1,height:4,near:0,far:10000,up:[0,1,0]};
+test('custom sheet camera normalized near-collinearity agrees with Python strict threshold',()=>{for(const up of [[1e-13,0,1],[1e-12,0,1]])assert.throws(()=>validateSheetCamera({...camera,up}));for(const up of [[2e-12,0,1],[0,1e-100,0],[0,Number.MIN_VALUE,0]])assert.deepEqual(validateSheetCamera({...camera,up}).up,up);const c={...camera,position:[Number.MIN_VALUE,Number.MIN_VALUE,Number.MIN_VALUE],target:[0,0,0],up:[0,Number.MIN_VALUE,0]};assert.deepEqual(validateSheetCamera(c),c);});

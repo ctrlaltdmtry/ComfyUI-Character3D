@@ -1,0 +1,54 @@
+/* Local controls only; inherits the existing dark studio palette and type. */
+#sheet-panel .sheet-status {
+ margin: 8px 0 12px; padding: 7px 9px;
+ border-left: 2px solid #9fbea9; background: #344b4a55;
+ color: #c3dace; font-size: 11px;
+}
+#sheet-panel.sheet-inactive .sheet-status { border-color: var(--line); color: var(--muted); background: transparent; }
+#sheet-panel .row select { max-width: 166px; min-width: 0; }
+#sheet-panel .sheet-pair { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; margin-top: 12px; }
+#sheet-panel .sheet-field { display: block; min-width: 0; margin-top: 12px; color: var(--muted); font-size: 10px; }
+#sheet-panel .sheet-pair .sheet-field { margin-top: 0; }
+#sheet-panel .sheet-field input {
+ display: block; width: 100%; min-width: 0; margin-top: 5px; padding: 7px 8px;
+ border: 1px solid #506175; border-radius: 5px;
+ background: #293744; color: var(--ink); font: 12px Consolas, monospace;
+}
+#sheet-panel #sheet-cell-label { font-family: inherit; }
+#sheet-panel .sheet-label-settings { display: grid; grid-template-columns: minmax(0, 1fr) 70px; gap: 10px; align-items: end; }
+#sheet-panel .sheet-label-settings .row { margin-bottom: 5px; gap: 6px; font-size: 10px; }
+#sheet-panel .sheet-preview {
+ margin-top: 16px; padding: 7px; border: 1px solid #7894a755;
+ border-radius: 6px; background: #1c2732;
+}
+#sheet-panel .sheet-grid {
+ display: grid; width: 100%; overflow: hidden; background: #26313e;
+}
+#sheet-panel .sheet-cell {
+ position: relative; display: flex; flex-direction: column; justify-content: center; align-items: center;
+ gap: 3px; min-width: 0; min-height: 0; overflow: hidden; padding: 4px 2px;
+ border: 1px solid #60758a; border-radius: 2px;
+ background: #303e4e; color: #c0cedb;
+}
+#sheet-panel .sheet-cell:hover { background: #3b4d5f; }
+#sheet-panel .sheet-cell.selected {
+ border-color: #c5ddcf; background: #425960; color: #eff8f2;
+ box-shadow: inset 0 0 0 1px #c5ddcf66;
+}
+#sheet-panel .sheet-cell-orientation { font: 20px/1.1 'Segoe UI', sans-serif; flex: 0 1 auto; }
+#sheet-panel .sheet-cell-name {
+ display: block; max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+ font: 9px/1.3 'Segoe UI', sans-serif;
+}
+#sheet-panel .sheet-cell-number {
+ position: absolute; left: 3px; top: 2px; color: #b1c4d0;
+ font: 8px/1 Consolas, monospace;
+}
+#sheet-panel .sheet-cell-heading { margin: 15px 0 0; color: #bccfd9; font-size: 11px; font-weight: 600; }
+#sheet-panel .sheet-capture { border-color: #73918d; color: #d2e4db; }
+#sheet-panel .sheet-error { font-size: 11px; color: #e5bf94; overflow-wrap: anywhere; }
+#sheet-panel .sheet-error:empty { display: none; }
+#sheet-panel [hidden] { display: none; }
+#sheet-panel :is(button, input, select):focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+#sheet-panel .sheet-cell:focus-visible { outline-offset: -3px; }
+#sheet-panel button:disabled { cursor: default; }

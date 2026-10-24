@@ -1,0 +1,301 @@
+{
+  "config": {},
+  "extra": {
+    "ds": {
+      "offset": [
+        0,
+        0
+      ],
+      "scale": 1
+    }
+  },
+  "groups": [],
+  "id": "00000000-0000-0000-0000-000000000000",
+  "last_link_id": 3,
+  "last_node_id": 4,
+  "links": [
+    [
+      1,
+      1,
+      0,
+      2,
+      0,
+      "IMAGE"
+    ],
+    [
+      2,
+      1,
+      1,
+      3,
+      0,
+      "MASK"
+    ],
+    [
+      3,
+      3,
+      0,
+      4,
+      0,
+      "IMAGE"
+    ]
+  ],
+  "nodes": [
+    {
+      "flags": {},
+      "id": 1,
+      "inputs": [
+        {
+          "link": null,
+          "localized_name": "snapshot",
+          "name": "snapshot",
+          "type": "STRING",
+          "widget": {
+            "name": "snapshot"
+          }
+        },
+        {
+          "link": null,
+          "localized_name": "scene_json",
+          "name": "scene_json",
+          "type": "STRING",
+          "widget": {
+            "name": "scene_json"
+          }
+        }
+      ],
+      "mode": 0,
+      "order": 0,
+      "outputs": [
+        {
+          "links": [
+            1
+          ],
+          "localized_name": "image",
+          "name": "image",
+          "type": "IMAGE"
+        },
+        {
+          "links": [
+            2
+          ],
+          "localized_name": "foreground_mask",
+          "name": "foreground_mask",
+          "type": "MASK"
+        },
+        {
+          "links": null,
+          "localized_name": "scene_json",
+          "name": "scene_json",
+          "type": "STRING"
+        },
+        {
+          "links": null,
+          "localized_name": "description",
+          "name": "description",
+          "type": "STRING"
+        }
+      ],
+      "pos": [
+        100,
+        100
+      ],
+      "properties": {
+        "Node name for S&R": "Character3DEditor",
+        "character3DDraft": {
+          "alpha": true,
+          "camera": {
+            "height": 4.282918353080749,
+            "position": [
+              0,
+              7.814389195442202,
+              47.48194861412048
+            ],
+            "target": [
+              0,
+              7.8143891954422,
+              1.386150062084198
+            ],
+            "zoom": 1
+          },
+          "expressionPreset": "neutral",
+          "expressionStrength": 1,
+          "expressions": {
+            "brow_down_l": 0.3
+          },
+          "faceOffsets": {
+            "oculi01.L": [
+              0,
+              0.015,
+              0
+            ]
+          },
+          "faceSymmetry": true,
+          "free": false,
+          "material": "clay",
+          "morphs": {
+            "identity_nose_length": 0.42,
+            "weight": 0.6
+          },
+          "pose": {
+            "head": [
+              0,
+              0.12,
+              0
+            ]
+          },
+          "schema": "character-3d-preview/1",
+          "sex": 1,
+          "skin": "#b98570",
+          "view": "portrait"
+        }
+      },
+      "size": [
+        360,
+        420
+      ],
+      "type": "Character3DEditor",
+      "widgets_values": [
+        "character_3d/c3d_1a981720319ce2310f898a589f259bb9.png",
+        "{\"schema\":\"character-3d-snapshot/1\",\"state\":{\"alpha\":true,\"camera\":{\"height\":3.9332790422439574,\"position\":[0,6.499692759513858,43.08820033073425],\"target\":[0,6.499692759513855,1.0147499442100525],\"zoom\":1},\"expressionPreset\":\"neutral\",\"expressionStrength\":1,\"expressions\":{\"smile_l\":0.35,\"smile_r\":0.35},\"faceOffsets\":{\"oculi01.L\":[0,0.015,0]},\"faceSymmetry\":true,\"free\":false,\"material\":\"clay\",\"morphs\":{\"identity_eye_spacing\":-0.2,\"identity_head_width\":-0.2,\"identity_shoulder_width\":0.2,\"identity_upper_lip_volume\":0.25,\"nose_width\":0.15},\"pose\":{\"head\":[0,0.12,0]},\"schema\":\"character-3d-preview/1\",\"sex\":0,\"skin\":\"#b98570\",\"view\":\"portrait\"},\"png_sha256\":\"6dfe4d554c154593da6366243d75bb791ab43fa940d58234284f8747721e38f6\",\"description\":\"\"}",
+        ""
+      ],
+      "widgets_values_named": {
+        "character3d_panel": "",
+        "scene_json": "{\"schema\":\"character-3d-snapshot/1\",\"state\":{\"alpha\":true,\"camera\":{\"height\":3.9332790422439574,\"position\":[0,6.499692759513858,43.08820033073425],\"target\":[0,6.499692759513855,1.0147499442100525],\"zoom\":1},\"expressionPreset\":\"neutral\",\"expressionStrength\":1,\"expressions\":{\"smile_l\":0.35,\"smile_r\":0.35},\"faceOffsets\":{\"oculi01.L\":[0,0.015,0]},\"faceSymmetry\":true,\"free\":false,\"material\":\"clay\",\"morphs\":{\"identity_eye_spacing\":-0.2,\"identity_head_width\":-0.2,\"identity_shoulder_width\":0.2,\"identity_upper_lip_volume\":0.25,\"nose_width\":0.15},\"pose\":{\"head\":[0,0.12,0]},\"schema\":\"character-3d-preview/1\",\"sex\":0,\"skin\":\"#b98570\",\"view\":\"portrait\"},\"png_sha256\":\"6dfe4d554c154593da6366243d75bb791ab43fa940d58234284f8747721e38f6\",\"description\":\"\"}",
+        "snapshot": "character_3d/c3d_1a981720319ce2310f898a589f259bb9.png"
+      }
+    },
+    {
+      "flags": {},
+      "id": 2,
+      "inputs": [
+        {
+          "link": 1,
+          "localized_name": "изображения",
+          "name": "images",
+          "type": "IMAGE"
+        },
+        {
+          "link": null,
+          "localized_name": "префикс_названия_файла",
+          "name": "filename_prefix",
+          "type": "STRING",
+          "widget": {
+            "name": "filename_prefix"
+          }
+        }
+      ],
+      "mode": 0,
+      "order": 1,
+      "outputs": [
+        {
+          "links": null,
+          "localized_name": "изображения",
+          "name": "images",
+          "type": "IMAGE"
+        }
+      ],
+      "pos": [
+        500,
+        100
+      ],
+      "properties": {},
+      "size": [
+        294.41796875,
+        58
+      ],
+      "type": "SaveImage",
+      "widgets_values": [
+        "Character3D-Test"
+      ],
+      "widgets_values_named": {
+        "filename_prefix": "Character3D-Test"
+      }
+    },
+    {
+      "flags": {},
+      "id": 3,
+      "inputs": [
+        {
+          "link": 2,
+          "localized_name": "маска",
+          "name": "mask",
+          "type": "MASK"
+        }
+      ],
+      "mode": 0,
+      "order": 2,
+      "outputs": [
+        {
+          "links": [
+            3
+          ],
+          "localized_name": "ИЗОБРАЖЕНИЕ",
+          "name": "IMAGE",
+          "type": "IMAGE"
+        }
+      ],
+      "pos": [
+        900,
+        100
+      ],
+      "properties": {
+        "Node name for S&R": "MaskToImage"
+      },
+      "size": [
+        258.18515625,
+        26
+      ],
+      "type": "MaskToImage"
+    },
+    {
+      "flags": {},
+      "id": 4,
+      "inputs": [
+        {
+          "link": 3,
+          "localized_name": "изображения",
+          "name": "images",
+          "type": "IMAGE"
+        },
+        {
+          "link": null,
+          "localized_name": "префикс_названия_файла",
+          "name": "filename_prefix",
+          "type": "STRING",
+          "widget": {
+            "name": "filename_prefix"
+          }
+        }
+      ],
+      "mode": 0,
+      "order": 3,
+      "outputs": [
+        {
+          "links": null,
+          "localized_name": "изображения",
+          "name": "images",
+          "type": "IMAGE"
+        }
+      ],
+      "pos": [
+        1300,
+        100
+      ],
+      "properties": {},
+      "size": [
+        294.41796875,
+        58
+      ],
+      "type": "SaveImage",
+      "widgets_values": [
+        "Character3D-Mask-Test"
+      ],
+      "widgets_values_named": {
+        "filename_prefix": "Character3D-Mask-Test"
+      }
+    }
+  ],
+  "revision": 0,
+  "version": 0.4
+}

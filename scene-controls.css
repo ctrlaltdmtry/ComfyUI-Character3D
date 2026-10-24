@@ -1,0 +1,24 @@
+/* Scene controls live only in the existing Scene tile; no global mode switch. */
+#scene-panel .scene-modes { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px; }
+#scene-panel .scene-actions { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 5px; margin-top: 10px; }
+#scene-panel .scene-button {
+ min-width: 0; padding: 8px 5px; border: 1px solid #506175; border-radius: 5px;
+ background: #303e4e; color: var(--ink, #dce8f2); font: inherit; font-size: 10px; cursor: pointer;
+}
+#scene-panel .scene-button:hover:not(:disabled) { background: #3b4d5f; }
+#scene-panel .scene-button.selected { border-color: #a5c5dc; background: #425769; color: #eef6fc; }
+#scene-panel .scene-button:disabled { opacity: .45; cursor: default; }
+#scene-panel .scene-field { display: block; min-width: 0; margin-top: 12px; color: var(--muted, #a7b8c7); font-size: 10px; }
+#scene-panel .scene-field :is(input, select) {
+ display: block; box-sizing: border-box; width: 100%; min-width: 0; margin-top: 5px; padding: 7px 8px;
+ border: 1px solid #506175; border-radius: 5px; background: #293744; color: var(--ink, #dce8f2); font: inherit; font-size: 12px;
+}
+#scene-panel .scene-check { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-top: 12px; font-size: 11px; }
+#scene-panel .scene-vector { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px; }
+#scene-panel .scene-vector input { font-family: Consolas, monospace; }
+#scene-panel .scene-placement-actions { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px; margin-top: 12px; }
+#scene-panel .scene-note { margin: 8px 0; color: var(--muted, #a7b8c7); font-size: 10px; line-height: 1.5; }
+#scene-panel .scene-error { color: #e5bf94; font-size: 11px; overflow-wrap: anywhere; }
+#scene-panel .scene-error:empty { display: none; }
+#scene-panel [hidden] { display: none !important; }
+#scene-panel :is(button, input, select):focus-visible { outline: 2px solid var(--accent, #a5c5dc); outline-offset: 2px; }

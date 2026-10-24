@@ -1,0 +1,3 @@
+# Portable package compatibility pins exact runtime bytes.
+# Do not rewrite LF/CRLF when cloning or checking out on Windows.
+* -text

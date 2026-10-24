@@ -1,0 +1,129 @@
+/* Loaded after style.css. Visibility is authoritative even for flex/grid panels. */
+aside > section[hidden] {
+  display: none !important;
+}
+
+#section-navigation {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+  padding: 12px 0 10px;
+  border-bottom: 1px solid var(--line);
+  background: var(--panel);
+  color: var(--ink);
+}
+
+#section-navigation .section-navigation-heading {
+  margin-bottom: 7px;
+  color: var(--muted);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+
+#section-navigation .section-tiles {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 5px;
+}
+
+#section-navigation .section-tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  min-width: 0;
+  min-height: 50px;
+  margin: 0;
+  padding: 6px 3px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: linear-gradient(145deg, #ffffff08, #0000000c), var(--panel);
+  color: var(--muted);
+  font: inherit;
+  font-size: 10px;
+  line-height: 1.2;
+  cursor: pointer;
+  /* Static changes only: no animation, compositing or idle render work. */
+}
+
+#section-navigation .section-tile svg {
+  display: block;
+  flex: none;
+  width: 19px;
+  height: 19px;
+  pointer-events: none;
+}
+
+#section-navigation .section-tile-label {
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  text-align: center;
+}
+
+#section-navigation .section-tile:hover {
+  border-color: var(--muted);
+  color: var(--ink);
+  background: linear-gradient(145deg, #adc9ed1a, #adc9ed05), var(--panel);
+}
+
+#section-navigation .section-tile[aria-pressed="true"] {
+  border-color: var(--accent);
+  color: var(--ink);
+  background: linear-gradient(145deg, #adc9ed30, #adc9ed10), var(--panel);
+  box-shadow: inset 0 2px 0 var(--accent);
+}
+
+#section-navigation .section-tile[aria-pressed="true"] svg {
+  color: var(--accent);
+}
+
+#section-navigation .section-actions {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 5px;
+  margin-top: 8px;
+}
+
+#section-navigation .section-action {
+  min-width: 0;
+  margin: 0;
+  padding: 5px 3px;
+  border: 1px solid var(--line);
+  border-radius: 5px;
+  background: linear-gradient(180deg, #ffffff08, transparent), var(--panel);
+  color: var(--ink);
+  font: inherit;
+  font-size: 10px;
+  line-height: 1.4;
+  cursor: pointer;
+}
+
+#section-navigation .section-action:hover {
+  border-color: var(--muted);
+  background: linear-gradient(180deg, #adc9ed20, #adc9ed08), var(--panel);
+}
+
+#section-navigation button:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+#section-navigation .section-hint {
+  margin: 7px 0 0;
+  color: var(--muted);
+  font-size: 10px;
+  line-height: 1.4;
+}
+
+@media (forced-colors: active) {
+  #section-navigation .section-tile[aria-pressed="true"] {
+    border-color: Highlight;
+    outline: 1px solid Highlight;
+  }
+}

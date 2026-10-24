@@ -1,0 +1,16 @@
+import assert from 'node:assert/strict';
+import {validateCanvas,resolveCanvas,resizeCanvas} from '../web/render-settings.js';
+assert.deepEqual(resolveCanvas({view:'portrait'}),{width:1024,height:1024,background:'#333e4a'});
+assert.deepEqual(resolveCanvas({view:'sheet'}),{width:1536,height:1536,background:'#333e4a'});
+assert.deepEqual(resolveCanvas({view:'body'}),{width:1024,height:1536,background:'#333e4a'});
+assert.deepEqual(resolveCanvas({view:'sheet'}),{width:1536,height:1536,background:'#333e4a'});
+const legacy={view:'body'};resolveCanvas(legacy);assert.deepEqual(legacy,{view:'body'});
+const c={width:640,height:360,background:'#456789'};assert.deepEqual(validateCanvas(c),c);assert.notEqual(validateCanvas(c),c);
+assert.deepEqual(resizeCanvas(c,'width',1280,true),{width:1280,height:720,background:'#456789'});
+assert.deepEqual(resizeCanvas(c,'height',640,false),{width:640,height:640,background:'#456789'});
+for(const value of [0,-1,4097,1.5,true,NaN,Infinity,'512'])assert.throws(()=>validateCanvas({...c,width:value}));
+assert.throws(()=>validateCanvas({...c,width:4096,height:4096}));
+for(const background of ['red','#abc','#gggggg',null,123])assert.throws(()=>validateCanvas({...c,background}));
+assert.throws(()=>validateCanvas({...c,extra:1}));assert.throws(()=>validateCanvas(null));assert.throws(()=>validateCanvas([]));assert.throws(()=>resolveCanvas({view:'invalid'}));
+assert.throws(()=>resizeCanvas(c,'bad',1));assert.throws(()=>resizeCanvas(c,'height',4096,true));
+console.log('PASS output canvas: legacy sizes without mutation, strict bounds/colors, aspect lock, independent dimensions.');

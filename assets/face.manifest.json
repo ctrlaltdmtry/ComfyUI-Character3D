@@ -1,0 +1,1590 @@
+{
+  "formatVersion": 1,
+  "commit": "afb9f530a7c2741dedb8df0ebae2e0b183caec21",
+  "sources": [
+    {
+      "url": "https://files2.makehumancommunity.org/asset_packs/makehuman_system_assets/makehuman_system_assets_cc0.zip",
+      "member": "teeth/teeth_base/teeth_base.obj",
+      "local": "assets/face-sources/system/teeth/teeth_base/teeth_base.obj",
+      "sha256": "f55198069e55d360c4b4cc7ecb1cc292b2c7665753ab8b65eabf46a8783f2875",
+      "bytes": 313110,
+      "archiveBytes": 280737770,
+      "license": "CC0-1.0"
+    },
+    {
+      "url": "https://files2.makehumancommunity.org/asset_packs/makehuman_system_assets/makehuman_system_assets_cc0.zip",
+      "member": "teeth/teeth_base/teeth_base.mhclo",
+      "local": "assets/face-sources/system/teeth/teeth_base/teeth_base.mhclo",
+      "sha256": "9edc3deff3bb97a95c791878064dd069a74a38f95ea6d9707a9ba68d888b3b5c",
+      "bytes": 263220,
+      "archiveBytes": 280737770,
+      "license": "CC0-1.0"
+    },
+    {
+      "url": "https://files2.makehumancommunity.org/asset_packs/makehuman_system_assets/makehuman_system_assets_cc0.zip",
+      "member": "tongue/tongue01/tongue01.obj",
+      "local": "assets/face-sources/system/tongue/tongue01/tongue01.obj",
+      "sha256": "12f4a6a9f85abae2ce3b4aa42d8119e1f679a437e0e89cb928ec68b29a7a1587",
+      "bytes": 17155,
+      "archiveBytes": 280737770,
+      "license": "CC0-1.0"
+    },
+    {
+      "url": "https://files2.makehumancommunity.org/asset_packs/makehuman_system_assets/makehuman_system_assets_cc0.zip",
+      "member": "tongue/tongue01/tongue01.mhclo",
+      "local": "assets/face-sources/system/tongue/tongue01/tongue01.mhclo",
+      "sha256": "61d825899cd78ff3146fa1324118060cb44b095fae1427d408c199ade74e3c9e",
+      "bytes": 2113,
+      "archiveBytes": 280737770,
+      "license": "CC0-1.0"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/makehumancommunity/mpfb2/afb9f530a7c2741dedb8df0ebae2e0b183caec21/src/mpfb/data/targets/expression/units/caucasian/eye-left-closure.target.gz",
+      "local": "assets/face-sources/eye-left-closure.target.gz",
+      "sha256": "ff0d21ceb6da55fe51e03b48a7562a650924fea9bef0c686fcd7aa44d16422ed",
+      "bytes": 1016,
+      "license": "CC0-1.0"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/makehumancommunity/mpfb2/afb9f530a7c2741dedb8df0ebae2e0b183caec21/src/mpfb/data/targets/expression/units/caucasian/eye-right-closure.target.gz",
+      "local": "assets/face-sources/eye-right-closure.target.gz",
+      "sha256": "2b7be6bc65845d77e5f83b7bf852090854747e448644997795fa59b6cf76122d",
+      "bytes": 996,
+      "license": "CC0-1.0"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/makehumancommunity/mpfb2/afb9f530a7c2741dedb8df0ebae2e0b183caec21/src/mpfb/data/targets/expression/units/caucasian/eyebrows-left-up.target.gz",
+      "local": "assets/face-sources/eyebrows-left-up.target.gz",
+      "sha256": "e0be77b6846c62ecc54d589ad1430a2b1a145e8ec067507fae181bd7e6a4eb54",
+      "bytes": 276,
+      "license": "CC0-1.0"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/makehumancommunity/mpfb2/afb9f530a7c2741dedb8df0ebae2e0b183caec21/src/mpfb/data/targets/expression/units/caucasian/eyebrows-right-up.target.gz",
+      "local": "assets/face-sources/eyebrows-right-up.target.gz",
+      "sha256": "66060c97949f4fb414fb1b731379f9ca5bcc000e4184ee1f7d527d94b70b14e8",
+      "bytes": 319,
+      "license": "CC0-1.0"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/makehumancommunity/mpfb2/afb9f530a7c2741dedb8df0ebae2e0b183caec21/src/mpfb/data/targets/expression/units/caucasian/eyebrows-left-down.target.gz",
+      "local": "assets/face-sources/eyebrows-left-down.target.gz",
+      "sha256": "f0cabdd8a225779806b8faabb1afcc4ee830a3eb3c6b1abe045d797328cff323",
+      "bytes": 348,
+      "license": "CC0-1.0"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/makehumancommunity/mpfb2/afb9f530a7c2741dedb8df0ebae2e0b183caec21/src/mpfb/data/targets/expression/units/caucasian/eyebrows-right-down.target.gz",
+      "local": "assets/face-sources/eyebrows-right-down.target.gz",
+      "sha256": "ac4ad201d160f1eb7dc076e012bccd41e191d2886fc1b327c8409d8b77d63082",
+      "bytes": 342,
+      "license": "CC0-1.0"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/makehumancommunity/mpfb2/afb9f530a7c2741dedb8df0ebae2e0b183caec21/src/mpfb/data/targets/expression/units/caucasian/mouth-corner-puller.target.gz",
+      "local": "assets/face-sources/mouth-corner-puller.target.gz",
+      "sha256": "d881bb8feda2637bdaef2c7d7c6bed12f0be5914949e5a2cb9b06a583af412c0",
+      "bytes": 4152,
+      "license": "CC0-1.0"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/makehumancommunity/mpfb2/afb9f530a7c2741dedb8df0ebae2e0b183caec21/src/mpfb/data/targets/expression/units/caucasian/mouth-depression.target.gz",
+      "local": "assets/face-sources/mouth-depression.target.gz",
+      "sha256": "add8cc38bb25d257811476bf253052659ea7a52d6e03715a7a3da4ae5cc1316c",
+      "bytes": 3270,
+      "license": "CC0-1.0"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/makehumancommunity/mpfb2/afb9f530a7c2741dedb8df0ebae2e0b183caec21/src/mpfb/data/targets/expression/units/caucasian/mouth-compression.target.gz",
+      "local": "assets/face-sources/mouth-compression.target.gz",
+      "sha256": "c1dad4335810949a4591794023de4cf502a677c0aa59d40f7e70b99d4aac20c1",
+      "bytes": 3569,
+      "license": "CC0-1.0"
+    },
+    {
+      "url": "https://files2.makehumancommunity.org/functional/faceunits01.zip",
+      "member": "packs/faceunits01.json",
+      "local": "assets/face-sources/faceunits01.json",
+      "sha256": "fd647a088691ddd9193ce9600df3377bb9ccf69c2904f0a7773a3c246d234c18",
+      "bytes": 18636,
+      "license": "CC0-1.0",
+      "archiveSha256": "d113107bd7eb59f3af4df6fc0ec29bfcc593f496d0b336aec14f086a80ce7146"
+    },
+    {
+      "url": "https://files2.makehumancommunity.org/functional/faceunits01.zip",
+      "member": "targets/faceunits/cheekPuff.target",
+      "local": "assets/face-sources/cheekPuff.target",
+      "sha256": "fb99e2ab7e923be84cf2387a10d198d410b6b4135a14d58a1111b55edd624894",
+      "bytes": 40086,
+      "license": "CC0-1.0",
+      "archiveSha256": "d113107bd7eb59f3af4df6fc0ec29bfcc593f496d0b336aec14f086a80ce7146"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/makehumancommunity/mpfb2/afb9f530a7c2741dedb8df0ebae2e0b183caec21/src/mpfb/data/rigs/standard/rig.default.json",
+      "local": "assets/face-sources/rig.default.json",
+      "sha256": "8b949de35c2dd70dbb5094e57a8586c3b9a9f650775a293212581a8f67be6797",
+      "bytes": 126355,
+      "license": "CC0-1.0"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/makehumancommunity/mpfb2/afb9f530a7c2741dedb8df0ebae2e0b183caec21/src/mpfb/data/rigs/standard/weights.default.json",
+      "local": "assets/face-sources/weights.default.json",
+      "sha256": "154b866774a8c2b055a8e86419f22a87b76c60440fdcb70bcb78345f00924e89",
+      "bytes": 5034981,
+      "license": "CC0-1.0"
+    }
+  ],
+  "sourceInventory": {
+    "path": "assets/face-sources/sources.json",
+    "sha256": "3c0eff9cbcd88a3460169ff8c382322b1f89476832626cae870b81775c8a5dc2"
+  },
+  "inputs": {
+    "human.json": "e59e2b263fc9eff6f0ee102b8c8502c70950c4573df173aac7b3a80471ee97a0",
+    "rig.json": "ccb2c6a8c6b4b496c7f1e7a821b8c2425bf48ab744ccd1a208c4df5ec8fbc9a9",
+    "human.manifest.json": "c2d5a533dffe942e59052c28245cc6e3dcc14d025fdf643dbb00258eb43aa10f",
+    "rig.manifest.json": "05f8da43e190f2396bad4b456e8bf64add2c80c5269c61d0801c24d53a96a1a9",
+    "human.vertex-map.json": "f1f405f8f2141c96d1cfe264bacff2135cfb61cdcd71940ec593adfcf9c60b43"
+  },
+  "baseManifests": [
+    "human.manifest.json",
+    "rig.manifest.json"
+  ],
+  "outputs": [
+    {
+      "path": "assets/face-rig.json",
+      "sha256": "b688f9865666e4aa513dac5992ed94a836a0cc6db6db76ee49251db632724f31",
+      "bytes": 671917
+    },
+    {
+      "path": "assets/face-morphs.json",
+      "sha256": "719280fb4a11d86ca6cf8da22b634347b309e404e30fb9b106a5057cb1db8593",
+      "bytes": 2284595
+    },
+    {
+      "path": "assets/face-parts.json",
+      "sha256": "97f2a683d937fa3c1edabc399f3e4c2f3506754dce15e98e8084eda945062ffd",
+      "bytes": 2473415
+    }
+  ],
+  "landmarks": {
+    "jaw": {
+      "head": {
+        "cube_name": "joint-mouth",
+        "default_position": [
+          0.0,
+          -0.056428298354148865,
+          0.703254222869873
+        ],
+        "strategy": "CUBE"
+      },
+      "tail": {
+        "default_position": [
+          0.0,
+          -0.10692666471004486,
+          0.6255499720573425
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 991
+      }
+    },
+    "levator02.L": {
+      "head": {
+        "default_position": [
+          0.0031032999977469444,
+          -0.14851999282836914,
+          0.7177500128746033
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 11679
+      },
+      "tail": {
+        "default_position": [
+          0.019823264330625534,
+          -0.1365966647863388,
+          0.7059134244918823
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 6960
+      }
+    },
+    "levator02.R": {
+      "head": {
+        "default_position": [
+          -0.0031032999977469444,
+          -0.14851999282836914,
+          0.7177500128746033
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 5062
+      },
+      "tail": {
+        "default_position": [
+          -0.019823264330625534,
+          -0.1365966647863388,
+          0.7059134244918823
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 184
+      }
+    },
+    "special01": {
+      "head": {
+        "default_position": [
+          0.0,
+          0.025646699592471123,
+          0.6961365938186646
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 5266
+      },
+      "tail": {
+        "default_position": [
+          0.0,
+          -0.14930327236652374,
+          0.68735671043396
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 343
+      }
+    },
+    "special03": {
+      "head": {
+        "cube_name": "joint-mouth",
+        "default_position": [
+          0.0,
+          -0.056428298354148865,
+          0.703254222869873
+        ],
+        "strategy": "CUBE"
+      },
+      "tail": {
+        "default_position": [
+          0.0,
+          -0.1585199534893036,
+          0.7040400505065918
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 5134
+      }
+    },
+    "special06.L": {
+      "head": {
+        "cube_name": "joint-head-2",
+        "default_position": [
+          -0.0,
+          -0.03735329955816269,
+          0.8448141813278198
+        ],
+        "strategy": "CUBE"
+      },
+      "tail": {
+        "default_position": [
+          0.018686659634113312,
+          -0.0933832973241806,
+          0.8298499584197998
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 7746
+      }
+    },
+    "special06.R": {
+      "head": {
+        "cube_name": "joint-head-2",
+        "default_position": [
+          -0.0,
+          -0.03735329955816269,
+          0.8448141813278198
+        ],
+        "strategy": "CUBE"
+      },
+      "tail": {
+        "default_position": [
+          -0.018686659634113312,
+          -0.0933832973241806,
+          0.8298499584197998
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 1054
+      }
+    },
+    "temporalis01.L": {
+      "head": {
+        "default_position": [
+          0.060453299432992935,
+          -0.10367000102996826,
+          0.7425100207328796
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 10409
+      },
+      "tail": {
+        "default_position": [
+          0.05225997418165207,
+          -0.12129329144954681,
+          0.7421599626541138
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 6986
+      }
+    },
+    "temporalis01.R": {
+      "head": {
+        "default_position": [
+          -0.060453299432992935,
+          -0.10367000102996826,
+          0.7425100207328796
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 3741
+      },
+      "tail": {
+        "default_position": [
+          -0.05225997418165207,
+          -0.12129329144954681,
+          0.7421599626541138
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 211
+      }
+    },
+    "temporalis02.L": {
+      "head": {
+        "default_position": [
+          0.06230669841170311,
+          -0.10145329684019089,
+          0.7201365828514099
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 11797
+      },
+      "tail": {
+        "default_position": [
+          0.052580006420612335,
+          -0.11918332427740097,
+          0.7251266837120056
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 11704
+      }
+    },
+    "temporalis02.R": {
+      "head": {
+        "default_position": [
+          -0.06230669841170311,
+          -0.10145329684019089,
+          0.7201365828514099
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 5185
+      },
+      "tail": {
+        "default_position": [
+          -0.052580006420612335,
+          -0.11918332427740097,
+          0.7251266837120056
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 5089
+      }
+    },
+    "levator03.L": {
+      "head": {
+        "default_position": [
+          0.01982329972088337,
+          -0.1365966945886612,
+          0.7059134244918823
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 6960
+      },
+      "tail": {
+        "default_position": [
+          0.02591666951775551,
+          -0.1369733363389969,
+          0.6874765753746033
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 11925
+      }
+    },
+    "levator03.R": {
+      "head": {
+        "default_position": [
+          -0.01982329972088337,
+          -0.1365966945886612,
+          0.7059134244918823
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 184
+      },
+      "tail": {
+        "default_position": [
+          -0.02591666951775551,
+          -0.1369733363389969,
+          0.6874765753746033
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 5321
+      }
+    },
+    "levator06.L": {
+      "head": {
+        "default_position": [
+          0.005656700115650892,
+          -0.15775659680366516,
+          0.6978533864021301
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 7062
+      },
+      "tail": {
+        "default_position": [
+          0.01691669039428234,
+          -0.13914330303668976,
+          0.701740026473999
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 11685
+      }
+    },
+    "levator06.R": {
+      "head": {
+        "default_position": [
+          -0.005656700115650892,
+          -0.15775659680366516,
+          0.6978533864021301
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 295
+      },
+      "tail": {
+        "default_position": [
+          -0.01691669039428234,
+          -0.13914330303668976,
+          0.701740026473999
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 5069
+      }
+    },
+    "oculi02.L": {
+      "head": {
+        "default_position": [
+          0.05226000025868416,
+          -0.12129329890012741,
+          0.7421600222587585
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 6986
+      },
+      "tail": {
+        "default_position": [
+          0.03201330453157425,
+          -0.13928666710853577,
+          0.7568433284759521
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 6996
+      }
+    },
+    "oculi02.R": {
+      "head": {
+        "default_position": [
+          -0.05226000025868416,
+          -0.12129329890012741,
+          0.7421600222587585
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 211
+      },
+      "tail": {
+        "default_position": [
+          -0.03201330453157425,
+          -0.13928666710853577,
+          0.7568433284759521
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 222
+      }
+    },
+    "oris04.L": {
+      "head": {
+        "default_position": [
+          0.0,
+          -0.14930330216884613,
+          0.68735671043396
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 343
+      },
+      "tail": {
+        "default_position": [
+          0.013426682911813259,
+          -0.1469966322183609,
+          0.6809566617012024
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 11965
+      }
+    },
+    "oris04.R": {
+      "head": {
+        "default_position": [
+          0.0,
+          -0.14930330216884613,
+          0.68735671043396
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 343
+      },
+      "tail": {
+        "default_position": [
+          -0.013426682911813259,
+          -0.1469966322183609,
+          0.6809566617012024
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 5363
+      }
+    },
+    "oris06": {
+      "head": {
+        "default_position": [
+          0.0,
+          -0.14930330216884613,
+          0.68735671043396
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 343
+      },
+      "tail": {
+        "default_position": [
+          0.0,
+          -0.1499999761581421,
+          0.6822199821472168
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 5342
+      }
+    },
+    "risorius02.L": {
+      "head": {
+        "default_position": [
+          0.05257999897003174,
+          -0.11918330192565918,
+          0.7251266837120056
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 11704
+      },
+      "tail": {
+        "default_position": [
+          0.04754000902175903,
+          -0.1252366304397583,
+          0.6974533796310425
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 11927
+      }
+    },
+    "risorius02.R": {
+      "head": {
+        "default_position": [
+          -0.05257999897003174,
+          -0.11918330192565918,
+          0.7251266837120056
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 5089
+      },
+      "tail": {
+        "default_position": [
+          -0.04754000902175903,
+          -0.1252366304397583,
+          0.6974533796310425
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 5323
+      }
+    },
+    "special04": {
+      "head": {
+        "default_position": [
+          0.0,
+          -0.10692670196294785,
+          0.6255499720573425
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 991
+      },
+      "tail": {
+        "cube_name": "joint-jaw",
+        "default_position": [
+          0.0,
+          -0.13231417536735535,
+          0.6434249877929688
+        ],
+        "strategy": "CUBE"
+      }
+    },
+    "special05.L": {
+      "head": {
+        "default_position": [
+          0.018686700612306595,
+          -0.0933832973241806,
+          0.8298500180244446
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 7746
+      },
+      "tail": {
+        "cube_name": "joint-l-eye",
+        "default_position": [
+          0.028893757611513138,
+          -0.11807870119810104,
+          0.7355129718780518
+        ],
+        "strategy": "CUBE"
+      }
+    },
+    "special05.R": {
+      "head": {
+        "default_position": [
+          -0.018686700612306595,
+          -0.0933832973241806,
+          0.8298500180244446
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 1054
+      },
+      "tail": {
+        "cube_name": "joint-r-eye",
+        "default_position": [
+          -0.028893757611513138,
+          -0.11807870119810104,
+          0.7355129718780518
+        ],
+        "strategy": "CUBE"
+      }
+    },
+    "tongue00": {
+      "head": {
+        "default_position": [
+          0.0,
+          -0.10692670196294785,
+          0.6255499720573425
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 991
+      },
+      "tail": {
+        "cube_name": "joint-tongue-1",
+        "default_position": [
+          0.0,
+          -0.06895499676465988,
+          0.6692292094230652
+        ],
+        "strategy": "CUBE"
+      }
+    },
+    "eye.L": {
+      "head": {
+        "cube_name": "joint-l-eye",
+        "default_position": [
+          0.02889380045235157,
+          -0.1180787980556488,
+          0.7355129718780518
+        ],
+        "strategy": "CUBE"
+      },
+      "tail": {
+        "cube_name": "joint-l-eye-target",
+        "default_position": [
+          0.030670462176203728,
+          -0.15605668723583221,
+          0.7325596213340759
+        ],
+        "strategy": "CUBE"
+      }
+    },
+    "eye.R": {
+      "head": {
+        "cube_name": "joint-r-eye",
+        "default_position": [
+          -0.02889380045235157,
+          -0.1180787980556488,
+          0.7355129718780518
+        ],
+        "strategy": "CUBE"
+      },
+      "tail": {
+        "cube_name": "joint-r-eye-target",
+        "default_position": [
+          -0.030670462176203728,
+          -0.15605668723583221,
+          0.7325596213340759
+        ],
+        "strategy": "CUBE"
+      }
+    },
+    "levator04.L": {
+      "head": {
+        "default_position": [
+          0.025916699320077896,
+          -0.1369733065366745,
+          0.6874765753746033
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 11925
+      },
+      "tail": {
+        "default_position": [
+          0.02767002210021019,
+          -0.1371166706085205,
+          0.6700599789619446
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 10407
+      }
+    },
+    "levator04.R": {
+      "head": {
+        "default_position": [
+          -0.025916699320077896,
+          -0.1369733065366745,
+          0.6874765753746033
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 5321
+      },
+      "tail": {
+        "default_position": [
+          -0.02767002210021019,
+          -0.1371166706085205,
+          0.6700599789619446
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 3739
+      }
+    },
+    "oculi01.L": {
+      "head": {
+        "default_position": [
+          0.03201330080628395,
+          -0.13928669691085815,
+          0.7568433284759521
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 6996
+      },
+      "tail": {
+        "default_position": [
+          0.015253297984600067,
+          -0.1434200257062912,
+          0.7580834031105042
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 7006
+      }
+    },
+    "oculi01.R": {
+      "head": {
+        "default_position": [
+          -0.03201330080628395,
+          -0.13928669691085815,
+          0.7568433284759521
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 222
+      },
+      "tail": {
+        "default_position": [
+          -0.015253297984600067,
+          -0.1434200257062912,
+          0.7580834031105042
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 233
+      }
+    },
+    "orbicularis03.L": {
+      "head": {
+        "cube_name": "joint-l-eye",
+        "default_position": [
+          0.02889380045235157,
+          -0.1180787980556488,
+          0.7355129718780518
+        ],
+        "strategy": "CUBE"
+      },
+      "tail": {
+        "cube_name": "joint-l-upperlid",
+        "default_position": [
+          0.030597977340221405,
+          -0.15403161942958832,
+          0.7443487048149109
+        ],
+        "strategy": "CUBE"
+      }
+    },
+    "orbicularis03.R": {
+      "head": {
+        "cube_name": "joint-r-eye",
+        "default_position": [
+          -0.02889380045235157,
+          -0.1180787980556488,
+          0.7355129718780518
+        ],
+        "strategy": "CUBE"
+      },
+      "tail": {
+        "cube_name": "joint-r-upperlid",
+        "default_position": [
+          -0.030597977340221405,
+          -0.15403161942958832,
+          0.7443487048149109
+        ],
+        "strategy": "CUBE"
+      }
+    },
+    "orbicularis04.L": {
+      "head": {
+        "cube_name": "joint-l-eye",
+        "default_position": [
+          0.02889380045235157,
+          -0.1180787980556488,
+          0.7355129718780518
+        ],
+        "strategy": "CUBE"
+      },
+      "tail": {
+        "cube_name": "joint-l-lowerlid",
+        "default_position": [
+          0.030694635584950447,
+          -0.15349581837654114,
+          0.7212799787521362
+        ],
+        "strategy": "CUBE"
+      }
+    },
+    "orbicularis04.R": {
+      "head": {
+        "cube_name": "joint-r-eye",
+        "default_position": [
+          -0.02889380045235157,
+          -0.1180787980556488,
+          0.7355129718780518
+        ],
+        "strategy": "CUBE"
+      },
+      "tail": {
+        "cube_name": "joint-r-lowerlid",
+        "default_position": [
+          -0.030694635584950447,
+          -0.15349581837654114,
+          0.7212799787521362
+        ],
+        "strategy": "CUBE"
+      }
+    },
+    "oris02": {
+      "head": {
+        "cube_name": "joint-jaw",
+        "default_position": [
+          0.0,
+          -0.13231420516967773,
+          0.6434249877929688
+        ],
+        "strategy": "CUBE"
+      },
+      "tail": {
+        "default_position": [
+          0.0,
+          -0.14275339245796204,
+          0.6530632972717285
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 491
+      }
+    },
+    "oris03.L": {
+      "head": {
+        "default_position": [
+          0.013426699675619602,
+          -0.14699670672416687,
+          0.6809567213058472
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 11965
+      },
+      "tail": {
+        "default_position": [
+          0.016420064494013786,
+          -0.1466333568096161,
+          0.6750165820121765
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 7170
+      }
+    },
+    "oris03.R": {
+      "head": {
+        "default_position": [
+          -0.013426699675619602,
+          -0.14699670672416687,
+          0.6809567213058472
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 5363
+      },
+      "tail": {
+        "default_position": [
+          -0.016420064494013786,
+          -0.1466333568096161,
+          0.6750165820121765
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 410
+      }
+    },
+    "oris05": {
+      "head": {
+        "default_position": [
+          0.0,
+          -0.15000000596046448,
+          0.6822199821472168
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 5342
+      },
+      "tail": {
+        "default_position": [
+          0.0,
+          -0.15332335233688354,
+          0.6757766604423523
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 466
+      }
+    },
+    "oris06.L": {
+      "head": {
+        "cube_name": "joint-jaw",
+        "default_position": [
+          0.0,
+          -0.13231420516967773,
+          0.6434249877929688
+        ],
+        "strategy": "CUBE"
+      },
+      "tail": {
+        "default_position": [
+          0.012389983050525188,
+          -0.1395733505487442,
+          0.6479166150093079
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 7450
+      }
+    },
+    "oris06.R": {
+      "head": {
+        "cube_name": "joint-jaw",
+        "default_position": [
+          0.0,
+          -0.13231420516967773,
+          0.6434249877929688
+        ],
+        "strategy": "CUBE"
+      },
+      "tail": {
+        "default_position": [
+          -0.012389983050525188,
+          -0.1395733505487442,
+          0.6479166150093079
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 728
+      }
+    },
+    "risorius03.L": {
+      "head": {
+        "default_position": [
+          0.047540001571178436,
+          -0.1252366006374359,
+          0.6974533796310425
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 11927
+      },
+      "tail": {
+        "default_position": [
+          0.05217999964952469,
+          -0.10945998877286911,
+          0.6777099967002869
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 11819
+      }
+    },
+    "risorius03.R": {
+      "head": {
+        "default_position": [
+          -0.047540001571178436,
+          -0.1252366006374359,
+          0.6974533796310425
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 5323
+      },
+      "tail": {
+        "default_position": [
+          -0.05217999964952469,
+          -0.10945998877286911,
+          0.6777099967002869
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 5208
+      }
+    },
+    "tongue01": {
+      "head": {
+        "cube_name": "joint-tongue-1",
+        "default_position": [
+          0.0,
+          -0.06895499676465988,
+          0.6692292094230652
+        ],
+        "strategy": "CUBE"
+      },
+      "tail": {
+        "cube_name": "joint-tongue-2",
+        "default_position": [
+          0.0,
+          -0.097819983959198,
+          0.6728959083557129
+        ],
+        "strategy": "CUBE"
+      }
+    },
+    "levator05.L": {
+      "head": {
+        "default_position": [
+          0.0276699997484684,
+          -0.1371167004108429,
+          0.6700599789619446
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 10407
+      },
+      "tail": {
+        "default_position": [
+          0.024849997833371162,
+          -0.1374266892671585,
+          0.6617066860198975
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 7159
+      }
+    },
+    "levator05.R": {
+      "head": {
+        "default_position": [
+          -0.0276699997484684,
+          -0.1371167004108429,
+          0.6700599789619446
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 3739
+      },
+      "tail": {
+        "default_position": [
+          -0.024849997833371162,
+          -0.1374266892671585,
+          0.6617066860198975
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 399
+      }
+    },
+    "oris01": {
+      "head": {
+        "default_position": [
+          0.0,
+          -0.14275330305099487,
+          0.6530634164810181
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 491
+      },
+      "tail": {
+        "default_position": [
+          0.0,
+          -0.1484699249267578,
+          0.6669166088104248
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 493
+      }
+    },
+    "oris07.L": {
+      "head": {
+        "default_position": [
+          0.012389999814331532,
+          -0.13957330584526062,
+          0.6479166746139526
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 7450
+      },
+      "tail": {
+        "default_position": [
+          0.017166659235954285,
+          -0.14267997443675995,
+          0.6604899764060974
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 7166
+      }
+    },
+    "oris07.R": {
+      "head": {
+        "default_position": [
+          -0.012389999814331532,
+          -0.13957330584526062,
+          0.6479166746139526
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 728
+      },
+      "tail": {
+        "default_position": [
+          -0.017166659235954285,
+          -0.14267997443675995,
+          0.6604899764060974
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 406
+      }
+    },
+    "tongue02": {
+      "head": {
+        "cube_name": "joint-tongue-2",
+        "default_position": [
+          0.0,
+          -0.09781999886035919,
+          0.6728957891464233
+        ],
+        "strategy": "CUBE"
+      },
+      "tail": {
+        "cube_name": "joint-tongue-3",
+        "default_position": [
+          0.0,
+          -0.1180592030286789,
+          0.6726974248886108
+        ],
+        "strategy": "CUBE"
+      }
+    },
+    "tongue05.L": {
+      "head": {
+        "cube_name": "joint-tongue-2",
+        "default_position": [
+          0.0,
+          -0.09781999886035919,
+          0.6728957891464233
+        ],
+        "strategy": "CUBE"
+      },
+      "tail": {
+        "default_position": [
+          0.01939999684691429,
+          -0.10005998611450195,
+          0.6689299941062927
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 13535
+      }
+    },
+    "tongue05.R": {
+      "head": {
+        "cube_name": "joint-tongue-2",
+        "default_position": [
+          0.0,
+          -0.09781999886035919,
+          0.6728957891464233
+        ],
+        "strategy": "CUBE"
+      },
+      "tail": {
+        "default_position": [
+          -0.01939999684691429,
+          -0.10005998611450195,
+          0.6689299941062927
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 13435
+      }
+    },
+    "tongue03": {
+      "head": {
+        "cube_name": "joint-tongue-3",
+        "default_position": [
+          0.0,
+          -0.1180592030286789,
+          0.6726974844932556
+        ],
+        "strategy": "CUBE"
+      },
+      "tail": {
+        "default_position": [
+          0.0,
+          -0.12622380256652832,
+          0.6682003736495972
+        ],
+        "strategy": "MEAN",
+        "vertex_indices": [
+          13455,
+          13562
+        ]
+      }
+    },
+    "tongue06.L": {
+      "head": {
+        "cube_name": "joint-tongue-3",
+        "default_position": [
+          0.0,
+          -0.1180592030286789,
+          0.6726974844932556
+        ],
+        "strategy": "CUBE"
+      },
+      "tail": {
+        "default_position": [
+          0.016170021146535873,
+          -0.1159466952085495,
+          0.6674866676330566
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 13527
+      }
+    },
+    "tongue06.R": {
+      "head": {
+        "cube_name": "joint-tongue-3",
+        "default_position": [
+          0.0,
+          -0.1180592030286789,
+          0.6726974844932556
+        ],
+        "strategy": "CUBE"
+      },
+      "tail": {
+        "default_position": [
+          -0.016170021146535873,
+          -0.1159466952085495,
+          0.6674866676330566
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 13427
+      }
+    },
+    "tongue04": {
+      "head": {
+        "default_position": [
+          0.0,
+          -0.12622380256652832,
+          0.6682003736495972
+        ],
+        "strategy": "MEAN",
+        "vertex_indices": [
+          13455,
+          13562
+        ]
+      },
+      "tail": {
+        "cube_name": "joint-tongue-4",
+        "default_position": [
+          0.0,
+          -0.1343882977962494,
+          0.6637033820152283
+        ],
+        "strategy": "CUBE"
+      }
+    },
+    "tongue07.L": {
+      "head": {
+        "default_position": [
+          0.0,
+          -0.12622380256652832,
+          0.6682003736495972
+        ],
+        "strategy": "MEAN",
+        "vertex_indices": [
+          13455,
+          13562
+        ]
+      },
+      "tail": {
+        "default_position": [
+          0.011426684446632862,
+          -0.12644672393798828,
+          0.6647332310676575
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 13564
+      }
+    },
+    "tongue07.R": {
+      "head": {
+        "default_position": [
+          0.0,
+          -0.12622380256652832,
+          0.6682003736495972
+        ],
+        "strategy": "MEAN",
+        "vertex_indices": [
+          13455,
+          13562
+        ]
+      },
+      "tail": {
+        "default_position": [
+          -0.011426684446632862,
+          -0.12644672393798828,
+          0.6647332310676575
+        ],
+        "strategy": "VERTEX",
+        "vertex_index": 13464
+      }
+    }
+  },
+  "jointGroupVertexIds": {
+    "joint-head-2": [
+      14566,
+      14567,
+      14568,
+      14569,
+      14570,
+      14571,
+      14572,
+      14573
+    ],
+    "joint-jaw": [
+      14542,
+      14543,
+      14544,
+      14545,
+      14546,
+      14547,
+      14548,
+      14549
+    ],
+    "joint-l-eye": [
+      13606,
+      13607,
+      13608,
+      13609,
+      13610,
+      13611,
+      13612,
+      13613
+    ],
+    "joint-l-eye-target": [
+      14086,
+      14087,
+      14088,
+      14089,
+      14090,
+      14091,
+      14092,
+      14093
+    ],
+    "joint-l-lowerlid": [
+      14078,
+      14079,
+      14080,
+      14081,
+      14082,
+      14083,
+      14084,
+      14085
+    ],
+    "joint-l-upperlid": [
+      14094,
+      14095,
+      14096,
+      14097,
+      14098,
+      14099,
+      14100,
+      14101
+    ],
+    "joint-mouth": [
+      14590,
+      14591,
+      14592,
+      14593,
+      14594,
+      14595,
+      14596,
+      14597
+    ],
+    "joint-r-eye": [
+      13614,
+      13615,
+      13616,
+      13617,
+      13618,
+      13619,
+      13620,
+      13621
+    ],
+    "joint-r-eye-target": [
+      14518,
+      14519,
+      14520,
+      14521,
+      14522,
+      14523,
+      14524,
+      14525
+    ],
+    "joint-r-lowerlid": [
+      14510,
+      14511,
+      14512,
+      14513,
+      14514,
+      14515,
+      14516,
+      14517
+    ],
+    "joint-r-upperlid": [
+      14526,
+      14527,
+      14528,
+      14529,
+      14530,
+      14531,
+      14532,
+      14533
+    ],
+    "joint-tongue-1": [
+      14582,
+      14583,
+      14584,
+      14585,
+      14586,
+      14587,
+      14588,
+      14589
+    ],
+    "joint-tongue-2": [
+      14574,
+      14575,
+      14576,
+      14577,
+      14578,
+      14579,
+      14580,
+      14581
+    ],
+    "joint-tongue-3": [
+      14558,
+      14559,
+      14560,
+      14561,
+      14562,
+      14563,
+      14564,
+      14565
+    ],
+    "joint-tongue-4": [
+      14550,
+      14551,
+      14552,
+      14553,
+      14554,
+      14555,
+      14556,
+      14557
+    ]
+  },
+  "facialParentMapping": {
+    "jaw": "head",
+    "levator02.L": "head",
+    "levator02.R": "head",
+    "special01": "head",
+    "special03": "head",
+    "special06.L": "head",
+    "special06.R": "head",
+    "temporalis01.L": "head",
+    "temporalis01.R": "head",
+    "temporalis02.L": "head",
+    "temporalis02.R": "head",
+    "levator03.L": "levator02.L",
+    "levator03.R": "levator02.R",
+    "levator06.L": "special03",
+    "levator06.R": "special03",
+    "oculi02.L": "temporalis01.L",
+    "oculi02.R": "temporalis01.R",
+    "oris04.L": "special01",
+    "oris04.R": "special01",
+    "oris06": "special01",
+    "risorius02.L": "temporalis02.L",
+    "risorius02.R": "temporalis02.R",
+    "special04": "jaw",
+    "special05.L": "special06.L",
+    "special05.R": "special06.R",
+    "tongue00": "jaw",
+    "eye.L": "special05.L",
+    "eye.R": "special05.R",
+    "levator04.L": "levator03.L",
+    "levator04.R": "levator03.R",
+    "oculi01.L": "oculi02.L",
+    "oculi01.R": "oculi02.R",
+    "orbicularis03.L": "special05.L",
+    "orbicularis03.R": "special05.R",
+    "orbicularis04.L": "special05.L",
+    "orbicularis04.R": "special05.R",
+    "oris02": "special04",
+    "oris03.L": "oris04.L",
+    "oris03.R": "oris04.R",
+    "oris05": "oris06",
+    "oris06.L": "special04",
+    "oris06.R": "special04",
+    "risorius03.L": "risorius02.L",
+    "risorius03.R": "risorius02.R",
+    "tongue01": "tongue00",
+    "levator05.L": "levator04.L",
+    "levator05.R": "levator04.R",
+    "oris01": "oris02",
+    "oris07.L": "oris06.L",
+    "oris07.R": "oris06.R",
+    "tongue02": "tongue01",
+    "tongue05.L": "tongue01",
+    "tongue05.R": "tongue01",
+    "tongue03": "tongue02",
+    "tongue06.L": "tongue02",
+    "tongue06.R": "tongue02",
+    "tongue04": "tongue03",
+    "tongue07.L": "tongue03",
+    "tongue07.R": "tongue03"
+  },
+  "maskRule": "Positive facial descendant weight AND original game_engine weight exactly 100% head AND default source row contains only head/facial descendants. All other compact rows are copied verbatim.",
+  "teethRule": "MHCLO authored reference-weight ownership: head=upper, jaw=lower. Preserve 20 authored mixed upper/lower gum connector quads as a separate teeth_gum_bridge part, with unchanged per-vertex weights.",
+  "licenses": [
+    "sources/mpfb/LICENSE.md",
+    "sources/mpfb/LICENSE.ASSETS.md"
+  ],
+  "ancillaryLicenseEvidence": "Each selected system OBJ/MHCLO explicitly declares September 2020 CC0 release; faceunits01.json explicitly declares cheekPuff CC0.",
+  "restrictions": [
+    "No upstream GPL program imported/copied. No synthesized geometry/weights.",
+    "This deliberately does not replace the entire game_engine skeleton with default rig.",
+    "Identity-rest axes require retargeting native upstream local animation channels.",
+    "Never add symmetric smile/frown and their split halves simultaneously at full strength.",
+    "Numeric and CPU tests do not certify GPU appearance or collision-free extreme combinations."
+  ]
+}
