@@ -25,6 +25,7 @@ node_modules/
 
 # Local QA, machine-bound deployment evidence and generated artifacts
 tests/performance/
+node.zip
 *.log
 dist/
 experiments/

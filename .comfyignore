@@ -1,0 +1,20 @@
+# Registry archive: runtime + user documentation + license notices only.
+# These files remain available in the GitHub repository.
+/tests/
+/tools/
+/examples/
+/.github/
+/.gitignore
+/.gitattributes
+/.comfyignore
+
+# Defense in depth for generated/local data.
+node.zip
+/dist/
+/experiments/
+/.hermes/
+__pycache__/
+*.py[cod]
+*.log
+.env
+.env.*
